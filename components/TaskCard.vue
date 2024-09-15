@@ -148,14 +148,26 @@ function deleteTask(listName:TaskStatus, taskId: number) {
     display: flex;
     align-items: center;
     gap: 5px;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 }
 
 :deep(.v-btn.edit-btn) {
   width: 50% !important;
+
+  @media (max-width: 480px) {
+    width: 100% !important;
+  }
 }
 
 :deep(.v-btn.delete-btn) {
   width: 50% !important;
+
+  @media (max-width: 480px) {
+    width: 100% !important;
+  }
 }
 </style>

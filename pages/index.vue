@@ -127,6 +127,7 @@ const handleScrollTaslList = () => {
   display: flex;
   gap: 20px;
   height: 100vh;
+  overflow-x: auto;
 }
 
 .board {
